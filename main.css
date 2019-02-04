@@ -1,0 +1,51 @@
+#app{
+    display:grid;
+}
+
+#header{
+    display:flex;
+    flex-direction: column;
+}
+
+#title1{
+    align-self: center;
+    font-size: 100px;
+    margin-bottom: -30px;
+}
+#undertitle{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+    position: relative;
+    left: 600px;
+}
+
+.closelink{
+    margin-left: -130px;
+}
+
+#undertitle > .subs{
+    position: relative;
+    left: 400px;
+}
+
+#undertitle > .followcell{
+    border-left: 1px;
+    border-left-style: solid;
+    padding-left: 4px;
+
+}
+#navbar{
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    margin-bottom: 10px;
+}
+
+#ad1{
+    width:1000px;
+    height:350px;
+    align-self:center;
+}
