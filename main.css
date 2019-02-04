@@ -82,6 +82,8 @@
 }
 #cell1{
     grid-area: 2/1/2/1;
+    border-bottom: 1px;
+    border-bottom-style: solid;
 }
 
 #cell2{
@@ -89,6 +91,8 @@
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
 }
 
 #cell3{
@@ -96,13 +100,15 @@
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
 }
 
 #cell4{
     grid-area: 3/1/3/1;
-    border-left: 1px;
-    border-left-style: solid;
     padding-left: 4px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
 }
 
 #cell5{
@@ -110,6 +116,8 @@
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
 }
 
 #cell6{
@@ -117,12 +125,12 @@
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
 }
 
 #cell7{
     grid-area: 4/1/4/1;
-    border-left: 1px;
-    border-left-style: solid;
     padding-left: 4px;
 }
 
@@ -131,6 +139,7 @@
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
+    
 }
 
 #cell9{
