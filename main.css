@@ -57,8 +57,9 @@
 /* container section for articles*/
 #container{
     display:grid;
-    grid-template-columns: 400px 400px 300px 400px;
-    grid-template-rows: 100px 400px 400px 400px 400px 800px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-top:20px;
 }
 
 .bigthumb{
@@ -76,6 +77,9 @@
     height:200px;
 }
 
+#conhead{
+    grid-area:1/1/1/1;
+}
 #cell1{
     grid-area: 2/1/2/1;
 }
@@ -87,72 +91,53 @@
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
+#cell3{
+    grid-area:2/3/2/3 ;
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
+#cell4{
+    grid-area: 3/1/3/1;
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
+#cell5{
+    grid-area: 3/2/3/2;
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
+#cell6{
+    grid-area: 3/3/3/3;
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
+#cell7{
+    grid-area: 4/1/4/1;
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
+#cell8{
+    grid-area: 4/2/4/2;
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
+#cell9{
+    grid-area:4/3/4/3;
     border-left: 1px;
     border-left-style: solid;
     padding-left: 4px;
 }
 
-#cell{
-    grid-area: ;
-    border-left: 1px;
-    border-left-style: solid;
-    padding-left: 4px;
-}
-
-#cell{
-    grid-area: ;
-    border-left: 1px;
-    border-left-style: solid;
-    padding-left: 4px;
-}
-
-#cell{
-    grid-area: ;
-    border-left: 1px;
-    border-left-style: solid;
-    padding-left: 4px;
-}
+/* Footer area */
